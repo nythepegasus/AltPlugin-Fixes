@@ -7,3 +7,4 @@ Download the script `altplugindownloader.sh` and then run the following in a ter
 chmod +x altplugindownloader.sh
 sudo ./altplugindownloader.sh
 ```
+After the script has ran, then open your Mail app, go to Preferences > General, at the bottom "Manage Plug-Ins", click that, enable AltPlugin, and restart Mail. Voila!
