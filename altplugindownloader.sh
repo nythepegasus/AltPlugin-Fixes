@@ -8,3 +8,8 @@ rm -f AltPlugin.mailbundle.zip
 
 spctl --add /Library/Mail/Bundles/AltPlugin.mailbundle
 
+osascript << EOF
+tell application "Mail" to activate
+tell application "System Events" to keystroke "," using command down
+display notification "Click 'Manage Plug-ins...' and enable AltPlugin" with title "Final Step"
+EOF
